@@ -9,7 +9,7 @@ public class EmployeeAppTesting{
 		EmployeeNameComparator comparator = new EmployeeNameComparator();
 		int value = comparator.compare(emp1,emp2);
 		
-		assert value<0 : "Wrong implementation";
+		assert value>0 : "Wrong implementation";
 		
 		System.out.println("Test successful");
 		
