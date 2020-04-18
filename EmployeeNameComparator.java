@@ -1,9 +1,5 @@
 import java.util.Comparator;
 
-
-
-/* Akhil please change the file format*/
-
 public class EmployeeNameComparator implements Comparator<Employee> {
 
 	@Override
