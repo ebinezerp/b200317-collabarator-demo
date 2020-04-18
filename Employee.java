@@ -11,13 +11,13 @@ public class Employee {
    
    }
    
-   /* please chage the order to id,name,age */
-   public Employee(String name, Integer id, Integer age){
    
+   /* changes done*/
+   public Employee( Integer id,String name,  Integer age){
+  
+  this.id=id;
    this.name= name;
-   this.id=id;
    this.age=age;
-   
    
    }
    public void setName(String name){
