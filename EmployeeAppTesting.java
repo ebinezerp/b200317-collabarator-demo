@@ -1,4 +1,4 @@
-public EmployeeAppTesting{
+public class EmployeeAppTesting{
 	
 	
 	public static void testEmployeeNameComparator(){
